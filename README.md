@@ -4,11 +4,11 @@
 
 ### L'atelier des détecteurs paranormaux à fabriquer soi-même.
 
-*15 prototypes d'enquête à monter de vos mains : détecteur EMF, Spirit Box, REM Pod, compteur Geiger…<br>Pour chacun : les composants, le câblage, le montage pas à pas, le programme de la carte et un boîtier 3D à imprimer.*
+*16 prototypes d'enquête à monter de vos mains : détecteur EMF, Spirit Box, REM Pod, compteur Geiger, détecteur d'infrasons…<br>Pour chacun : les composants, le câblage, le montage pas à pas, le programme de la carte et un boîtier 3D à imprimer.<br>Et un carnet d'enquête pour noter vos sorties et en tirer un rapport PDF.*
 
 <br>
 
-[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_1.0.0-B3121B?style=for-the-badge&labelColor=120708)](https://github.com/lerapeurdu62280-debug/PhantomLab-Download/releases/latest)
+[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_1.1.0-B3121B?style=for-the-badge&labelColor=120708)](https://github.com/lerapeurdu62280-debug/PhantomLab-Download/releases/latest)
 [![Gratuit](https://img.shields.io/badge/prix-gratuit-6B0F14?style=for-the-badge&labelColor=120708)](#%EF%B8%8F-télécharger)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-3A0A0D?style=for-the-badge&logo=windows&logoColor=white&labelColor=120708)](#%EF%B8%8F-configuration-requise)
 [![Discord](https://img.shields.io/badge/Discord-rejoindre_l%E2%80%99atelier-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=120708)](https://discord.gg/W5hd36CW6b)
@@ -21,7 +21,7 @@
 
 <br><br>
 
-[**Pourquoi**](#-pourquoi-phantom-lab-) · [**Les 15 prototypes**](#-les-15-prototypes) · [**Fonctionnalités**](#-fonctionnalités) · [**En images**](#%EF%B8%8F-en-images) · [**Télécharger**](#%EF%B8%8F-télécharger) · [**Questions fréquentes**](#-questions-fréquentes)
+[**Pourquoi**](#-pourquoi-phantom-lab-) · [**Les 16 prototypes**](#-les-16-prototypes) · [**Fonctionnalités**](#-fonctionnalités) · [**En images**](#%EF%B8%8F-en-images) · [**Télécharger**](#%EF%B8%8F-télécharger) · [**Questions fréquentes**](#-questions-fréquentes)
 
 </div>
 
@@ -33,11 +33,11 @@
 
 Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraiment ce qu'ils mesurent. Les fabriquer soi-même, c'est moins cher, bien plus amusant… et on comprend enfin ce que l'appareil détecte.
 
-**Phantom Lab réunit tout ce qu'il faut dans un seul logiciel** : la liste des pièces avec les liens AliExpress les moins chers, le schéma de câblage, chaque étape du montage, le programme à envoyer dans la carte ESP32, les réglages, et un boîtier à thème à imprimer en 3D. Vous suivez aussi l'avancement de vos propres montages, avec vos notes et vos photos.
+**Phantom Lab réunit tout ce qu'il faut dans un seul logiciel** : la liste des pièces avec les liens AliExpress les moins chers, le schéma de câblage, chaque étape du montage, le programme à envoyer dans la carte ESP32, les réglages, et un boîtier à thème à imprimer en 3D. Vous suivez aussi l'avancement de vos propres montages, avec vos notes et vos photos, et vous tenez le **carnet de chaque enquête** sur le terrain.
 
 <br>
 
-## 👻 Les 15 prototypes
+## 👻 Les 16 prototypes
 
 | | Prototype | Famille | | Prototype | Famille |
 |:-:|---|---|:-:|---|---|
@@ -48,7 +48,7 @@ Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraimen
 | V | **REM Pod** | Électromagnétique | XIII | **Barrière laser** | Mouvement |
 | VI | **Géophone** | Mouvement | XIV | **Détecteur de charge statique** | Électromagnétique |
 | VII | **Détecteur de mouvement** | Mouvement | XV | **Station d'enquête Wi-Fi** | Station |
-| VIII | **Ovilus** | Audio | | | |
+| VIII | **Ovilus** | Audio | XVI | **Détecteur d'infrasons** · *nouveau* | Audio |
 
 <br>
 
@@ -92,7 +92,28 @@ Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraimen
 - **Simulation animée** de chaque appareil : LED, écran, sons.
 - **Vidéo MP4** de la simulation, en un clic.
 - **Programme ESP32** prêt à copier ou exporter (14 appareils).
-- **Suivi de vos montages** : statut, étapes cochées, carnet d'enquête, vos photos.
+- **Suivi de vos montages** : statut, étapes cochées, notes, vos photos.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📓 Carnet d'enquête
+- Une fiche par **sortie** : lieu, date, horaires, météo, équipe.
+- **Phase de la lune** calculée automatiquement.
+- **Relevés** minute par minute, appareil par appareil.
+- **Observations, conclusion** (expliqué / inexpliqué) et **photos**.
+- **Rapport PDF** au format A4, prêt à imprimer ou à partager.
+
+</td>
+<td width="50%" valign="top">
+
+### 🎺 Nouveau : le détecteur d'infrasons
+- Les sons **trop graves pour l'oreille** (moins de 20 Hz), mesurés par un baromètre de précision.
+- **Niveau en pascals** et **fréquence dominante** à l'écran, forme d'onde en direct.
+- Alerte spéciale autour de **19 Hz**, la fréquence du célèbre « fantôme » de Vic Tandy.
+- Boîtier en **buffet d'orgue**, à poser au cœur du lieu.
 
 </td>
 </tr>
@@ -141,6 +162,26 @@ Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraimen
 <td width="50%" align="center">
 <img src="docs/screenshots/07-simulation-rempod.png" alt="Simulation du REM Pod"><br>
 <b>Simulation : REM Pod</b><br><sub>Plus la source est proche, plus les LED montent.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="docs/screenshots/09-carnet.png" alt="Carnet d'enquête"><br>
+<b>Carnet d'enquête</b><br><sub>Conditions, lune, appareils emportés et relevés de la soirée.</sub>
+</td>
+<td width="50%" align="center">
+<img src="docs/screenshots/10-rapport-pdf.png" alt="Rapport d'enquête en PDF"><br>
+<b>Rapport PDF</b><br><sub>Le compte rendu de l'enquête, prêt à imprimer.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="docs/screenshots/11-infrasons.png" alt="Le détecteur d'infrasons"><br>
+<b>Dossier XVI : détecteur d'infrasons</b><br><sub>Un baromètre de précision qui « entend » sous les 20 Hz.</sub>
+</td>
+<td width="50%" align="center">
+<img src="docs/screenshots/12-infrasons-simulation.png" alt="Simulation du détecteur d'infrasons"><br>
+<b>Simulation : 19 Hz</b><br><sub>La barrette vire au rouge, le bip devient aigu.</sub>
 </td>
 </tr>
 </table>
@@ -200,6 +241,12 @@ Chaque appareil propose aussi une boîte simple, et les fichiers STL exportés p
 <summary><b>La simulation, c'est le vrai appareil ?</b></summary>
 <br>
 C'est une démonstration animée de ce que l'appareil fait une fois monté : elle sert à comprendre son fonctionnement avant de souder. Ce n'est pas une mesure réelle.
+</details>
+
+<details>
+<summary><b>Des infrasons, vraiment ? Et le « 19 Hz » ?</b></summary>
+<br>
+Les infrasons sont des ondes de pression trop lentes pour l'oreille, produites par le vent, les ventilations, les chaudières, les grandes orgues… En 1998, l'ingénieur Vic Tandy a montré qu'un ventilateur vibrant à 19 Hz rendait son laboratoire « hanté ». Le détecteur de Phantom Lab utilise un baromètre de précision : il voit bien les claquements de porte, les rafales ou une ventilation qui pompe, mais pas les infrasons très faibles.
 </details>
 
 <details>
