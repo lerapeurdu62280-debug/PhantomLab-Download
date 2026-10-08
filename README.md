@@ -4,11 +4,11 @@
 
 ### L'atelier des détecteurs paranormaux à fabriquer soi-même.
 
-*16 prototypes d'enquête à monter de vos mains : détecteur EMF, Spirit Box, REM Pod, compteur Geiger, détecteur d'infrasons…<br>Pour chacun : les composants, le câblage, le montage pas à pas, le programme de la carte et un boîtier 3D à imprimer.<br>Et un carnet d'enquête pour noter vos sorties et en tirer un rapport PDF.*
+*21 prototypes d'enquête à monter de vos mains : détecteur EMF, Spirit Box, caméra thermique, compteur Geiger, détecteur d'infrasons…<br>Pour chacun : les composants, le câblage, le montage pas à pas, le programme de la carte et un boîtier 3D à imprimer.<br>Et tout pour l'enquête elle-même : carnet, mode veillée, plan du lieu, analyse EVP, rapport PDF partagé sur Discord.*
 
 <br>
 
-[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_1.1.0-B3121B?style=for-the-badge&labelColor=120708)](https://github.com/lerapeurdu62280-debug/PhantomLab-Download/releases/latest)
+[![Télécharger](https://img.shields.io/badge/⬇_Télécharger-version_1.2.0-B3121B?style=for-the-badge&labelColor=120708)](https://github.com/lerapeurdu62280-debug/PhantomLab-Download/releases/latest)
 [![Gratuit](https://img.shields.io/badge/prix-gratuit-6B0F14?style=for-the-badge&labelColor=120708)](#%EF%B8%8F-télécharger)
 [![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-3A0A0D?style=for-the-badge&logo=windows&logoColor=white&labelColor=120708)](#%EF%B8%8F-configuration-requise)
 [![Discord](https://img.shields.io/badge/Discord-rejoindre_l%E2%80%99atelier-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=120708)](https://discord.gg/W5hd36CW6b)
@@ -21,7 +21,7 @@
 
 <br><br>
 
-[**Pourquoi**](#-pourquoi-phantom-lab-) · [**Les 16 prototypes**](#-les-16-prototypes) · [**Fonctionnalités**](#-fonctionnalités) · [**En images**](#%EF%B8%8F-en-images) · [**Télécharger**](#%EF%B8%8F-télécharger) · [**Questions fréquentes**](#-questions-fréquentes)
+[**Pourquoi**](#-pourquoi-phantom-lab-) · [**Les 21 prototypes**](#-les-21-prototypes) · [**Fonctionnalités**](#-fonctionnalités) · [**En images**](#%EF%B8%8F-en-images) · [**Télécharger**](#%EF%B8%8F-télécharger) · [**Questions fréquentes**](#-questions-fréquentes)
 
 </div>
 
@@ -37,18 +37,17 @@ Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraimen
 
 <br>
 
-## 👻 Les 16 prototypes
+## 👻 Les 21 prototypes
 
-| | Prototype | Famille | | Prototype | Famille |
-|:-:|---|---|:-:|---|---|
-| I | **Détecteur EMF** | Électromagnétique | IX | **Caméra infrarouge** | Optique |
-| II | **Spirit Box** | Audio | X | **Projecteur SLS** | Optique |
-| III | **Enregistreur EVP** | Audio | XI | **Compteur Geiger** | Rayonnement |
-| IV | **Thermomètre à chute** | Thermique | XII | **Boîte à musique** | Audio |
-| V | **REM Pod** | Électromagnétique | XIII | **Barrière laser** | Mouvement |
-| VI | **Géophone** | Mouvement | XIV | **Détecteur de charge statique** | Électromagnétique |
-| VII | **Détecteur de mouvement** | Mouvement | XV | **Station d'enquête Wi-Fi** | Station |
-| VIII | **Ovilus** | Audio | XVI | **Détecteur d'infrasons** · *nouveau* | Audio |
+| | Prototype | Famille | | Prototype | Famille | | Prototype | Famille |
+|:-:|---|---|:-:|---|---|:-:|---|---|
+| I | **Détecteur EMF** | Électromagnétique | VIII | **Ovilus** | Audio | XV | **Station d'enquête Wi-Fi** | Station |
+| II | **Spirit Box** | Audio | IX | **Caméra infrarouge** | Optique | XVI | **Détecteur d'infrasons** | Audio |
+| III | **Enregistreur EVP** | Audio | X | **Projecteur SLS** | Optique | XVII | **Caméra thermique** · *nouveau* | Thermique |
+| IV | **Thermomètre à chute** | Thermique | XI | **Compteur Geiger** | Rayonnement | XVIII | **Enregistreur de nuit** · *nouveau* | Station |
+| V | **REM Pod** | Électromagnétique | XII | **Boîte à musique** | Audio | XIX | **Récepteur VLF** · *nouveau* | Électromagnétique |
+| VI | **Géophone** | Mouvement | XIII | **Barrière laser** | Mouvement | XX | **Piège photo** · *nouveau* | Optique |
+| VII | **Détecteur de mouvement** | Mouvement | XIV | **Détecteur de charge statique** | Électromagnétique | XXI | **Chaîne de thermomètres** · *nouveau* | Thermique |
 
 <br>
 
@@ -91,7 +90,7 @@ Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraimen
 ### 🔮 Voir l'appareil fonctionner
 - **Simulation animée** de chaque appareil : LED, écran, sons.
 - **Vidéo MP4** de la simulation, en un clic.
-- **Programme ESP32** prêt à copier ou exporter (14 appareils).
+- **Programme ESP32** prêt à copier ou exporter (19 appareils).
 - **Suivi de vos montages** : statut, étapes cochées, notes, vos photos.
 
 </td>
@@ -104,16 +103,17 @@ Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraimen
 - **Phase de la lune** calculée automatiquement.
 - **Relevés** minute par minute, appareil par appareil.
 - **Observations, conclusion** (expliqué / inexpliqué) et **photos**.
-- **Rapport PDF** au format A4, prêt à imprimer ou à partager.
+- **Plan du lieu** : pièces dessinées à la souris, repères numérotés, plan scanné en fond.
+- **Enregistrement de nuit** importé : courbes et moments marquants repérés automatiquement.
+- **Rapport PDF** au format A4, et **partage sur Discord** en un clic.
 
 </td>
 <td width="50%" valign="top">
 
-### 🎺 Nouveau : le détecteur d'infrasons
-- Les sons **trop graves pour l'oreille** (moins de 20 Hz), mesurés par un baromètre de précision.
-- **Niveau en pascals** et **fréquence dominante** à l'écran, forme d'onde en direct.
-- Alerte spéciale autour de **19 Hz**, la fréquence du célèbre « fantôme » de Vic Tandy.
-- Boîtier en **buffet d'orgue**, à poser au cœur du lieu.
+### 🕯️ Sur le terrain et après
+- **Mode veillée** plein écran : chrono et gros boutons (bruit, froid, voix…) qui notent l'heure d'un clic, avec un **mode nuit** rouge sombre.
+- **Analyse EVP** : spectrogramme, **réduction du souffle**, filtre voix, écoute **au ralenti**, passages marqués envoyés au carnet.
+- Tout est traité sur votre ordinateur : rien n'est envoyé ailleurs, sauf ce que vous partagez.
 
 </td>
 </tr>
@@ -184,6 +184,36 @@ Les appareils d'enquête du commerce coûtent cher, et on ne sait jamais vraimen
 <b>Simulation : 19 Hz</b><br><sub>La barrette vire au rouge, le bip devient aigu.</sub>
 </td>
 </tr>
+<tr>
+<td width="50%" align="center">
+<img src="docs/screenshots/13-thermique.png" alt="La caméra thermique"><br>
+<b>Dossier XVII : caméra thermique</b><br><sub>Une vraie image de chaleur pour traquer les points froids.</sub>
+</td>
+<td width="50%" align="center">
+<img src="docs/screenshots/14-thermique-simulation.png" alt="Simulation de la caméra thermique"><br>
+<b>Simulation : point froid</b><br><sub>La zone froide est entourée automatiquement.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="docs/screenshots/15-enregistrement-nuit.png" alt="Enregistrement de nuit importé"><br>
+<b>Enregistrement de nuit</b><br><sub>Toute une nuit en courbes, les moments marquants en liste.</sub>
+</td>
+<td width="50%" align="center">
+<img src="docs/screenshots/16-plan-du-lieu.png" alt="Plan du lieu"><br>
+<b>Plan du lieu</b><br><sub>Les pièces et les repères, repris dans le rapport.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="docs/screenshots/17-analyse-evp.png" alt="Analyse EVP"><br>
+<b>Analyse EVP</b><br><sub>Une voix apparaît en bandes horizontales sur le spectrogramme.</sub>
+</td>
+<td width="50%" align="center">
+<img src="docs/screenshots/18-mode-veillee.png" alt="Mode veillée"><br>
+<b>Mode veillée</b><br><sub>Un clic sur « Froid » ou « Voix » : l'heure est notée.</sub>
+</td>
+</tr>
 </table>
 
 <br>
@@ -247,6 +277,18 @@ C'est une démonstration animée de ce que l'appareil fait une fois monté : ell
 <summary><b>Des infrasons, vraiment ? Et le « 19 Hz » ?</b></summary>
 <br>
 Les infrasons sont des ondes de pression trop lentes pour l'oreille, produites par le vent, les ventilations, les chaudières, les grandes orgues… En 1998, l'ingénieur Vic Tandy a montré qu'un ventilateur vibrant à 19 Hz rendait son laboratoire « hanté ». Le détecteur de Phantom Lab utilise un baromètre de précision : il voit bien les claquements de porte, les rafales ou une ventilation qui pompe, mais pas les infrasons très faibles.
+</details>
+
+<details>
+<summary><b>Le récepteur VLF entend-il des fantômes ?</b></summary>
+<br>
+Non : il fait entendre des signaux naturels bien réels, les éclairs lointains et les « sifflements » qu'ils produisent en voyageant le long du champ magnétique terrestre. Le son est étrange et saisissant, mais entièrement naturel. Il n'a pas besoin de programme : c'est un petit montage analogique sur pile.
+</details>
+
+<details>
+<summary><b>Le partage sur Discord envoie-t-il mes données quelque part ?</b></summary>
+<br>
+Seulement là où vous le décidez : le rapport PDF part dans le salon Discord dont vous avez collé l'adresse de webhook, et nulle part ailleurs. Tout le reste (carnet, analyse audio, plans) reste sur votre ordinateur.
 </details>
 
 <details>
